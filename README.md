@@ -1,19 +1,66 @@
-# ✅ To-Do List (CLI)
 
-Um simples aplicativo de lista de tarefas para terminal, desenvolvido em **Node.js**, que permite adicionar, remover, editar e listar tarefas diretamente no console.
+# 📝 To-Do List CLI
 
-## 📌 Funcionalidades
+Uma aplicação simples e interativa de lista de tarefas via linha de comando, feita com **Node.js**. Gerencie suas tarefas com facilidade: adicione, liste, edite e remova tarefas, tudo salvo em um arquivo JSON.
 
-- 📋 **Adicionar tarefas**  
-- ❌ **Remover tarefas**  
-- 📝 **Editar tarefas**  
-- 📜 **Listar todas as tarefas**  
-- 🚀 **Interface interativa com Inquirer.js**  
-- 🎨 **Mensagens coloridas com Chalk.js**  
+## 📦 Funcionalidades
 
-## 🚀 Como instalar e usar
+- ✅ **Adicionar tarefas** com descrição personalizada.
+- 📋 **Listar todas as tarefas** salvas.
+- ✏️ **Editar tarefas** existentes.
+- ❌ **Remover tarefas** da lista.
+- 🧼 **Limpar a tela** do terminal.
+- 💾 **Armazenamento persistente** com `tasks.json`.
 
-### 1️⃣ **Clonar o repositório**  
+## 🚀 Como usar
+
+### Pré-requisitos
+
+- Ter o [Node.js](https://nodejs.org/) instalado.
+
+### Instalação
+
+1️⃣ **Clone e acesse o repositório:**
+
 ```bash
 git clone https://github.com/gabrielstkz/to-do-list.git
 cd to-do-list
+```
+
+2️⃣ **Instale as dependências:**
+
+```bash
+npm install
+```
+
+3️⃣ **Execute o aplicativo:**
+
+```bash
+node index.js
+```
+
+## 📁 Estrutura do Projeto
+
+```
+to-do-list/
+├── messages.js       # Funções auxiliares de mensagens de erro e sucesso
+├── tasks.json        # Arquivo onde as tarefas são armazenadas
+├── index.js          # Arquivo principal do projeto
+├── package.json      # Configurações e dependências do projeto
+└── README.md         # Documentação do projeto
+```
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Node.js](https://nodejs.org/)
+- [Inquirer](https://www.npmjs.com/package/inquirer)
+- [Chalk](https://www.npmjs.com/package/chalk)
+- [File System (fs)](https://nodejs.org/api/fs.html)
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença [MIT](LICENSE).
+
+---
+
+Feito com 💻 por [gabrielstkz](https://github.com/gabrielstkz)
