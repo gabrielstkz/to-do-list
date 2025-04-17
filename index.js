@@ -108,7 +108,7 @@ function removeTask() {
   const tasks = readTasks();
   if (tasks.length === 0) {
     errorMsg('No tasks available to remove.');
-    return main();
+    return main();''
   }
 
   inquirer.prompt([
