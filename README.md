@@ -63,4 +63,4 @@ Este projeto está licenciado sob a licença [MIT](LICENSE).
 
 ---
 
-Feito com 💻 por [gabrielstkz](https://github.com/gabrielstkz)
+Feito por [gabrielstkz](https://github.com/gabrielstkz)
